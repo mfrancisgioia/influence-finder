@@ -13,7 +13,6 @@ This repo contains my full response to the Labs skills assessment — a product 
 | 📄 **Product Brief** | [Read `influence_finder_product_brief.pdf`](brief/Influence_Finder_Product_Brief.docx) |
 | 📐 **Approach** | [Read `APPROACH.md`](APPROACH.md) |
 | 🐍 **Data Pipeline** | [Reference `pipeline.py`](pipeline.py) |
-| 🛠️ **Prototype Source** | [Reference `prototype/influence_finder.html`](prototype/influence_finder.html) |
 
 ## Suggested reading order
 

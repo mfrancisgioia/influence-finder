@@ -14,7 +14,6 @@ This repo contains my full response to the Labs skills assessment — a product 
 | 📐 **Approach** | [`APPROACH.md`](APPROACH.md) |
 | 🐍 **Data Pipeline** | [`pipeline.py`](pipeline.py) |
 | 🛠️ **Prototype Source** | [`prototype/influence_finder.html`](prototype/influence_finder.html) |
-| 💾 **Source Data** | [`data/Policy_Leader_Social_Account_Data.csv`](data/Policy_Leader_Social_Account_Data.csv) |
 
 ---
 
@@ -25,11 +24,8 @@ influence-finder/
 ├── README.md
 ├── APPROACH.md
 ├── pipeline.py                        ← data pipeline: CSV → JSON
-├── data/
-│   └── Policy_Leader_Social_Account_Data.csv
 ├── prototype/
 │   ├── influence_finder.html          ← self-contained prototype (data embedded)
-│   └── data.json                      ← pipeline output (used in development)
 └── brief/
     └── influence_finder_product_brief.pdf
 ```

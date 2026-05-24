@@ -65,7 +65,4 @@ The goal isn't just to ship software; it's to find out if the data output gives 
 
 ---
 
-### Contact Info
-* **Author:** Michael Gioia  
-* **Email:** mfrancisgioia@gmail.com  
-* **LinkedIn:** [linkedin.com/in/mfrancisgioia](https://www.linkedin.com/in/mfrancisgioia)
+*Michael Gioia · mfrancisgioia@gmail.com · [linkedin.com/in/mfrancisgioia](https://www.linkedin.com/in/mfrancisgioia)*

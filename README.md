@@ -17,21 +17,6 @@ This repo contains my full response to the Labs skills assessment — a product 
 
 ---
 
-## Repo structure
-
-```
-influence-finder/
-├── README.md
-├── APPROACH.md
-├── pipeline.py                        ← data pipeline: CSV → JSON
-├── prototype/
-│   ├── influence_finder.html          ← self-contained prototype (data embedded)
-└── brief/
-    └── influence_finder_product_brief.pdf
-```
-
----
-
 ## How this was built
 
 **Step 1 — Data pipeline (`pipeline.py`)**

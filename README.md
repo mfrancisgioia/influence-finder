@@ -15,6 +15,12 @@ This repo contains my full response to the Labs skills assessment — a product 
 | 🐍 **Data Pipeline** | [Reference `pipeline.py`](pipeline.py) |
 | 🛠️ **Prototype Source** | [Reference `prototype/influence_finder.html`](prototype/influence_finder.html) |
 
+## Suggested reading order
+
+1. **Open the `influence-finder` prototype** — spend 5 minutes with the live tool before reading anything
+2. **Read the `influence_finder_product_brief.pdf`** — what I built, why, and what I deliberately left out
+3. **Read `APPROACH.md`** — how I'd scale this into a repeatable practice and what the first 30 days would look like
+
 ---
 
 ## How this was built
@@ -38,14 +44,6 @@ python pipeline.py
 **Step 2 — Prototype (`prototype/influence_finder.html`)**
 
 A single-file HTML/JS interface built on the pipeline output. The full dataset is embedded directly in the file so it runs in any browser with no server, no install, and no dependencies. Filter, rank, shortlist, and export — all client-side.
-
----
-
-## Suggested reading order
-
-1. **Open the prototype** — spend 5 minutes with the live tool before reading anything
-2. **Read the product brief** — what I built, why, and what I deliberately left out
-3. **Read `APPROACH.md`** — how I'd scale this into a repeatable practice and what the first 30 days would look like
 
 ---
 

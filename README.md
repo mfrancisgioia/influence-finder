@@ -9,7 +9,7 @@ This repo contains my full response to the Labs skills assessment — a product 
 
 | | |
 |---|---|
-| 🔵 **Live Prototype** | [Launch Influence Finder →](https://[yourusername].github.io/influence-finder/prototype/influence_finder.html) |
+| 🔵 **Live Prototype** | [Launch Influence Finder →](https://mfrancisgioia.github.io/influence-finder/prototype/influence_finder.html) |
 | 📄 **Product Brief** | [`brief/Influence_Finder_Product_Brief.docx`](brief/Influence_Finder_Product_Brief.docx) |
 | 📐 **Approach** | [`APPROACH.md`](APPROACH.md) |
 | 🐍 **Data Pipeline** | [`pipeline.py`](pipeline.py) |

@@ -9,14 +9,14 @@ This repo contains my full response to the Labs skills assessment — a product 
 
 | | |
 |---|---|
-| 🔵 **Live Prototype** | [Launch `influence-finder` →](https://mfrancisgioia.github.io/influence-finder/prototype/influence_finder.html) |
+| 🔵 **Live Prototype** | [Launch `influence_finder.html` →](https://mfrancisgioia.github.io/influence-finder/prototype/influence_finder.html) |
 | 📄 **Product Brief** | [Read `influence_finder_product_brief.pdf`](brief/influence_finder_product_brief.pdf) |
 | 📐 **Approach** | [Read `APPROACH.md`](APPROACH.md) |
 | 🐍 **Data Pipeline** | [Download `pipeline.py`](pipeline.py) |
 
 ## Suggested reading order
 
-1. **Open the `influence-finder` prototype** — spend 5 minutes with the live tool before reading anything
+1. **Open the `influence_finder.html` prototype** — spend 5 minutes with the live tool before reading anything
 2. **Read the `influence_finder_product_brief.pdf`** — what I built, why, and what I deliberately left out
 3. **Read `APPROACH.md`** — how I'd scale this into a repeatable practice and what the first 30 days would look like
 
@@ -28,7 +28,7 @@ This repo contains my full response to the Labs skills assessment — a product 
 
 A Python script ingests the raw CSV and applies three analytical transforms:
 
-- Filters 11,560 accounts down to the ~3,300 with media tags (journalists, outlets, TV news, print, podcasts) — the actionable subset for campaign targeting
+- Filters 11,560 accounts down to ~3,300 with media tags (journalists, outlets, TV news, print, podcasts) — the actionable subset for campaign targeting
 - Computes the **affinity index** for each account: policy elite reach ÷ general population reach. This is the primary ranking signal — it surfaces who over-indexes with policy elites, not just who is big
 - Classifies **partisan lean** (Democratic / Republican / Bipartisan) from the dem/rep reach ratio, with a median gate to prevent low-signal accounts from defaulting to bipartisan
 
@@ -42,7 +42,7 @@ python pipeline.py
 
 **Step 2 — Prototype (`prototype/influence_finder.html`)**
 
-A single-file HTML/JS interface built on the pipeline output. The full dataset is embedded directly in the file so it runs in any browser with no server, no install, and no dependencies. Filter, rank, shortlist, and export — all client-side.
+A single-file HTML/JS interface built on the pipeline output. The full dataset is embedded directly in the file, so it runs in any browser with no server, no install, and no dependencies. Filter, rank, shortlist, and export — all client-side.
 
 ---
 

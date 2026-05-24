@@ -31,7 +31,7 @@ influence-finder/
 │   ├── influence_finder.html          ← self-contained prototype (data embedded)
 │   └── data.json                      ← pipeline output (used in development)
 └── brief/
-    └── Influence_Finder_Product_Brief.docx
+    └── influence_finder_product_brief.pdf
 ```
 
 ---

@@ -21,7 +21,7 @@ Pulling raw reach numbers gives a strategist a generic list they could have gues
 
 **The Product Decision:** I built the core ranking engine around a calculated metric I'm calling the **Affinity Index**:
 
-$$\text{Affinity Index} = \frac{\text{Elite Reach}}{\text{General Population Reach}}$$
+elite reach divided by general population reach
 
 The tool surfaces and ranks accounts based on their concentration of elite influence, not just their raw popularity.
 
@@ -41,9 +41,9 @@ They don't need a playground to explore data; they need a validated shortlist th
 
 Because this was a rapid sprint, I had to make three specific scoping calls that I’d want to pressure-test with users immediately:
 
-* **Partisan Lean Logic:** I classified accounts as Democratic-leaning if their Dem-to-Rep reach ratio was $\ge 2.0$, Republican-leaning at $\le 0.5$, and bipartisan anywhere in between. These boundaries feel intuitive, but they aren't empirically grounded yet. I need to sit with a strategist to see if these thresholds accurately reflect political realities on the ground.
-* **The Denominator Problem:** A few hyper-niche accounts threw off massive Affinity Index scores (above $40\times$) simply because their general pop reach was effectively zero, making the math unstable. For V1, I capped the visible index at $20\times$ to keep the leaderboard clean, but the long-term fix requires a normalized or log-scaled scoring system.
-* **Slicing the Data Noise:** I filtered the dataset down to the ~3,300 accounts containing explicit `media_tags` (journalists, outlets, podcasts, etc.), completely removing the remaining 8,000+ untagged rows. While this fits the immediate use case of media targeting, we might be ignoring highly influential activists or political authors who don't carry a traditional media tag. 
+* **Partisan Lean Logic:** I classified accounts as Democratic-leaning if their Dem-to-Rep reach ratio was 2.0 or higher, Republican-leaning at 0.5 or below, and bipartisan anywhere in between. These boundaries feel intuitive, but they aren't empirically grounded yet. I'd want to sit with a strategist to see if these thresholds accurately reflect political realities on the ground.
+* **The Denominator Problem:** A few hyper-niche accounts threw off massive affinity index scores — above 40 times — simply because their general population reach was effectively zero, making the math unstable. For V1, I capped the visible index at 20 times to keep the ranking clean, but the long-term fix requires a normalized or log-scaled scoring system.
+* **Slicing the Data Noise:** I filtered the dataset down to the roughly 3,300 accounts containing explicit media tags — journalists, outlets, podcasts, and so on — removing the remaining 8,000+ untagged rows entirely. While this fits the immediate use case of media targeting, we may be leaving out highly influential activists or political authors who don't carry a traditional media tag. 
 
 ---
 

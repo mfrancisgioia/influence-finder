@@ -62,7 +62,7 @@ I kept this out of the MVP because layering AI-generated classifications on top 
 
 In a product role focused on internal tools, the biggest risk is shipping a polished "demo product"—something that looks great in a leadership review slide deck but gets completely abandoned by actual staff because it doesn't solve a real workflow bottleneck. 
 
-My execution plan for the first 30 days wouldn't focus on engineering a final production UI. Instead, I’d take this exact Streamlit prototype, drop it in front of two or three strategists actively building live client pitches, and watch them use it. 
+My execution plan for the first 30 days wouldn't focus on engineering a final production UI. Instead, I’d take this exact Python-driven prototype, drop it in front of two or three strategists actively building live client pitches, and watch them use it. 
 
 The goal isn't just to ship software; it's to find out if the data output gives them the confidence to stand in front of a client and defend the recommendation. That insight is what we build the actual roadmap on.
 

@@ -1,4 +1,4 @@
-# README.md/influence-finder
+# README.md
 ### Director, Product (Labs) - Skills Assessment · May 2026
 
 I'm Michael Gioia — a Senior Product Manager with a decade of experience building data integration and media technology products, currently interviewing for the Director, Product (Labs) role at BPI.

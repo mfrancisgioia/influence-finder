@@ -7,6 +7,7 @@
 There are two distinct pieces of source code behind the prototype:
 1. A Python script that ingested the raw CSV, computed the affinity index, classified partisan lean, filtered to media-tagged accounts, and exported the clean JSON that powers the tool
 2. The HTML/JS prototype itself — which is the interface, but also is the source in the sense that all the logic lives in it
+
 ---
 
 ## 2. Finding the Signal in the Sample Data

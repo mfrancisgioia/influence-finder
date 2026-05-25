@@ -12,11 +12,11 @@ There are two distinct pieces of source code behind the prototype: (1) a Python 
 
 ---
 
-## 2. Working with AI vs. Shipping What the Model Gives You
+## 2. Working with AI vs. Shipping: What the Model Gives You
 
-The full repo — pipeline, prototype, product brief, and this document — was built over approximately 8–10 hours across several working sessions. That timeline matters because it reflects something worth naming directly: AI-assisted product work is not the same as AI-generated product work, and the difference shows up in the output.
+The full repo — pipeline, prototype, product brief, and this document — was built over approximately 4–6 hours across several working sessions. That timeline matters because it reflects something worth naming directly: AI-assisted product work is not the same as AI-generated product work, and the difference shows up in the output.
 
-The first draft of the affinity index framing came from a model prompt. So did the initial pipeline structure, the brief scaffold, and the prototype layout. None of those shipped as-is. Every output required interrogation — pushing back on the signal selection, questioning whether the media tag filter was a finding or an assumption, pressure-testing the partisan lean thresholds against what the data actually showed, and catching places where the model stated conclusions more confidently than the evidence warranted.
+A model prompt generated the first draft of the affinity index framing. So did the initial pipeline structure, the brief scaffold, and the prototype layout. None of those shipped as-is. Every output required interrogation — pushing back on the signal selection, questioning whether the media tag filter was a finding or an assumption, pressure-testing the partisan lean thresholds against what the data actually showed, and catching places where the model stated conclusions more confidently than the evidence warranted.
 
 A few concrete examples of where that vetting mattered:
 
@@ -56,7 +56,7 @@ They don't need a playground to explore data; they need a validated shortlist th
 
 Because this was a rapid sprint, I had to make several scoping calls that I'd want to pressure-test with users immediately:
 
-* **Partisan Lean Logic:** I classified accounts as Democratic-leaning if their dem/rep reach ratio was 2.0 or higher, Republican-leaning at 0.5 or below, and bipartisan anywhere in between. These boundaries feel intuitive but they aren't empirically grounded yet. The way I'd resolve this in week one is a calibration session with two or three senior strategists, using a sample of 20 accounts with known partisan profiles as a test set. Their corrections define the validated thresholds — the goal is to ground the classification in field experience, not intuition.
+* **Partisan Lean Logic:** I classified accounts as Democratic-leaning if their dem/rep reach ratio was 2.0 or higher, Republican-leaning at 0.5 or below, and bipartisan anywhere in between. These boundaries feel intuitive, but they aren't empirically grounded yet. The way I'd resolve this in week one is a calibration session with two or three senior strategists, using a sample of 20 accounts with known partisan profiles as a test set. Their corrections define the validated thresholds — the goal is to ground the classification in field experience, not intuition.
 
 * **The Denominator Problem:** A few hyper-niche accounts threw off massive affinity index scores — above 40 times — simply because their general population reach was effectively zero, making the math unstable. I capped the display at 20 times for V1, but the right fix isn't a display cap — it's a minimum reach qualifying gate applied before the index is computed at all. Accounts below roughly 5,000 general population followers produce mathematically unstable ratios and should be excluded from ranking entirely rather than masked after the fact. I'd implement that gate in the first engineering sprint and retire the cap alongside it.
 
@@ -80,7 +80,7 @@ In a product role focused on internal tools, the biggest risk is shipping a poli
 
 My execution plan for the first 30 days wouldn't focus on engineering a final production UI. Instead, I'd take this exact prototype, put it in front of two or three strategists actively building live client pitches, and watch them use it without coaching them on how.
 
-The specific signal I'd be looking for: did the strategist feel confident enough in the ranked output to include it in a client-facing document without manually re-validating the list? That's the pass/fail test. If yes, the core ranking has earned trust and the next sprint is downstream features. If no, the problem is ranking explainability and that gets fixed before anything else gets built.
+The specific signal I'd be looking for: did the strategist feel confident enough in the ranked output to include it in a client-facing document without manually re-validating the list? That's the pass/fail test. If yes, the core ranking has earned trust, and the next sprint is downstream features. If not, the problem is ranking explainability, and that gets fixed before anything else gets built.
 
 The goal isn't to ship software. It's to find out if the data output gives strategists the confidence to stand in front of a client and defend the recommendation. That insight is what the actual roadmap gets built on.
 

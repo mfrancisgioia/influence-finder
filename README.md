@@ -1,9 +1,9 @@
-# README.md
-### Director, Product (Labs) - Skills Assessment · May 2026
+# Skills Assessment · May 2026
+## BPI · Director, Product (Labs)
 
 I'm Michael Gioia — a Senior Product Manager with a decade of experience building data integration and media technology products, currently interviewing for the Director, Product (Labs) role at BPI.
 
-This repo is my submission to the Skills Assessment, and it's structured to demonstrate three things the role requires: the ability to think deeply about data, make product decisions under ambiguity, and ship something that drives a real outcome. The assessment material provided a dataset of 11,560 policy elite social accounts and asked me to identify the problem worth solving and build something that addressed it.
+This repo is my submission for the Skills Assessment, and it's structured to demonstrate three things the role requires: the ability to think deeply about data, make product decisions under ambiguity, and ship something that drives a real outcome. The assessment material provided a dataset of 11,560 policy elite social accounts and asked me to identify the problem worth solving and build something that addressed it.
 
 My thesis is that the most valuable signal in this data isn't raw reach; it's the ratio between how much an account over-indexes with policy elites versus the general population. That ratio, which I've called the affinity index, is what separates a recommendation a BPI strategist can defend to a client from a list they could have pulled themselves. Everything in this repo, from the data pipeline, the prototype, the product brief, and the approach document, is built around proving that thesis and showing what it would look like in practice.
 

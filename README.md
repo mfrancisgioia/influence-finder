@@ -22,7 +22,7 @@ My thesis is that the most valuable signal in this data isn't raw reach; it's th
 
 1. **Open the `influence_finder.html` prototype** — spend 5 minutes with the live tool before reading anything
 2. **Read the `influence_finder_product_brief.pdf`** — what I built, why, and what I deliberately left out
-3. **Read `APPROACH.md`** — how I'd scale this into a repeatable practice and what the first 30 days would look like
+3. **Read `APPROACH.md`** — methodology, decision frameworks, and what the first 30 days would look like
 
 ---
 

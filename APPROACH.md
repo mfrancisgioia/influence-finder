@@ -1,8 +1,7 @@
-# APPROACH.md
-### Director, Product (Labs) - Skills Assessment · May 2026
+# My Approach
 
 ## 1. Tech Stack & AI Collaboration:
-* **Models:** Claude 3.5 Sonnet / Gemini 3.5 Flash (Used for A/B evaluation across data exploration, script generation, and text synthesis)
+* **Models:** Claude Sonnet 4.6 / Gemini 3.1 Pro (Used for A/B evaluation across data exploration, script generation, and text synthesis)
 * **Applications:** Data parsing, Python + HTML/JS prototype construction, and brief scaffolding.
 
 There are two distinct pieces of source code behind the prototype:

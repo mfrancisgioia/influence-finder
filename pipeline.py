@@ -1,10 +1,10 @@
 """
 pipeline.py
 -----------
-BPI Labs · Influence Finder · Data Pipeline
+Influence Finder · Data Pipeline
 
 Ingests the raw policy elite social account dataset, applies analytical
-transforms, and exports a clean JSON file for use by the prototype interface.
+Transforms and exports a clean JSON file for use by the prototype interface.
 
 Input:  data/Policy_Leader_Social_Account_Data.csv
 Output: prototype/data.json

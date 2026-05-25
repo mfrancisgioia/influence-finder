@@ -14,7 +14,7 @@ My thesis is that the most valuable signal in this data isn't raw reach; it's th
 | | |
 |---|---|
 | 🔵 **Live Prototype** | [Launch `influence_finder.html` →](https://mfrancisgioia.github.io/influence-finder/prototype/influence_finder.html) |
-| 📄 **Product Brief** | [Read `influence_finder_product_brief.pdf`](brief/influence_finder_product_brief.pdf) |
+| 📄 **Product Brief** | [Read `influence_finder_product_brief.pdf`](influencer_finder_product_brief.pdf) |
 | 📐 **Approach** | [Read `APPROACH.md`](APPROACH.md) |
 | 🐍 **Data Pipeline** | [Download `pipeline.py`](pipeline.py) |
 

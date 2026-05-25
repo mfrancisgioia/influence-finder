@@ -4,9 +4,7 @@
 * **Models:** Claude Sonnet 4.6 / Gemini 3.1 Pro (Used for A/B evaluation across data exploration, script generation, and text synthesis)
 * **Applications:** Data parsing, Python + HTML/JS prototype construction, and brief scaffolding.
 
-There are two distinct pieces of source code behind the prototype:
-1. A Python script that ingested the raw CSV, computed the affinity index, classified partisan lean, filtered to media-tagged accounts, and exported the clean JSON that powers the tool
-2. The HTML/JS prototype itself — which is the interface, but also is the source in the sense that all the logic lives in it
+There are two distinct pieces of source code behind the prototype: (1) a Python script that ingested the raw CSV, computed the affinity index, classified partisan lean, filtered to media-tagged accounts, and exported the clean JSON that powers the tool and (2) the HTML/JS prototype itself — which is the interface, but also is the source in the sense that all the logic lives in it
 
 ---
 

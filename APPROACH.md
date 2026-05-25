@@ -5,8 +5,8 @@
 * **Applications:** Data parsing, Python + HTML/JS prototype construction, and brief scaffolding.
 
 There are two distinct pieces of source code behind the prototype:
-* A Python script that ingested the raw CSV, computed the affinity index, classified partisan lean, filtered to media-tagged accounts, and exported the clean JSON that powers the tool
-* The HTML/JS prototype itself — which is the interface, but also is the source in the sense that all the logic lives in it
+1. A Python script that ingested the raw CSV, computed the affinity index, classified partisan lean, filtered to media-tagged accounts, and exported the clean JSON that powers the tool
+2. The HTML/JS prototype itself — which is the interface, but also is the source in the sense that all the logic lives in it
 ---
 
 ## 2. Finding the Signal in the Sample Data
@@ -21,7 +21,7 @@ Pulling raw reach numbers gives a strategist a generic list they could have gues
 
 **The Product Decision:** I built the core ranking engine around a calculated metric I'm calling the **Affinity Index**:
 
-elite reach divided by general population reach
+* *elite reach divided by general population reach*
 
 The tool surfaces and ranks accounts based on their concentration of elite influence, not just their raw popularity.
 
@@ -59,7 +59,7 @@ I kept this out of the MVP because layering AI-generated classifications on top 
 
 ## 6. Driving Outcomes in the First 30 Days
 
-In a product role focused on internal tools, the biggest risk is shipping a polished "demo product"—something that looks great in a leadership review slide deck but gets completely abandoned by actual staff because it doesn't solve a real workflow bottleneck. 
+In a product role focused on internal tools, the biggest risk is shipping a polished "demo product" — something that looks great in a leadership review slide deck but gets completely abandoned by actual staff because it doesn't solve a real workflow bottleneck. 
 
 My execution plan for the first 30 days wouldn't focus on engineering a final production UI. Instead, I’d take this exact Python-driven prototype, drop it in front of two or three strategists actively building live client pitches, and watch them use it. 
 
